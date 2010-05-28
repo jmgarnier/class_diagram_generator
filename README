@@ -1,0 +1,61 @@
+ClassDiagramGenerator
+=====================
+
+== DESCRIPTION:
+
+Ruby on Rails plugin which generates class diagrams for Models & Controllers using http://yuml.me
+
+
+== SYNOPSIS:
+
+=== Models diagram
+
+==== Sub part
+
+* Use Case : <b><tt>_(:UseCase)</tt></b> or <tt><b>useCase(:UseCase)</b></tt>
+*
+
+==== Example
+
+=== Controllers diagram
+
+
+=== default rake tasks
+
+
+=== your custom rake tasks
+
+== Credits:
+
+Much inspired from railsroad () and yumlrails ()
+also some code form http://github.com/glejeune/ruby-yuml
+
+== plugin code written on rails!
+
+With a flappy internet connection or no internet connection at all
+
+I started hacking around with these tools but without tests, I could not go very far and hit such a wall of frustration that
+I starting my own, using a BDD approach with RSpec. 
+
+
+This plugin has been almost entirely written on Rails ;-)
+I mean I wrote 80% of the code in the train! I do a lot of travel at the moment as I work for a company
+in Berlin and I live in Lyon: that is exacly 12 hours door to door.
+
+TODO
+====
+
+- FIXME / TODO
+- Continuous Integration like http://github.com/nex3/haml/blob/master/Rakefile using http://runcoderun.com/github
+- also check how Ian White http://github.com/ianwhite/pickle he is using
+- metrics with http://getcaliper.com/caliper
+- documentation with http://github.com/proutils/webme
+
+
+Example
+=======
+
+Example goes here.
+
+
+Copyright (c) 2010 21croissants Jean-Michel Garnier, released under the MIT license
