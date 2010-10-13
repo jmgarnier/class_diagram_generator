@@ -106,7 +106,7 @@ describe "Class diagram generator" do
           @associations_metadata.add_association @association
         end
 
-        it "should add association to the corresponding graph" do          
+        it "should add association to the corresponding graph" do
           @associations_metadata.include_link_for_association?(@association).should be_true
         end
 
